@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --background-color: #333;
+    --text-color: #fff;
+    --accent-color: #286cd9;
+    --accent-color-select: #667be1;
+}
+body{
+    background-color: var(--background-color);
+    font-family: 'JetBrains Mono', monospace;
+}
+main{
+    background-color: var(--background-color);
+}
+h1{
+    color: var(--text-color);
+}
+p{
+    color: var(--text-color);
+}
+a{
+    color: var(--accent-color);
+    text-decoration: dotted;
+}
+a:hover{
+    color: var(--accent-color-select);
+    font-weight: 900;
+    text-decoration: underline;
+}
+h2{
+    color: var(--text-color);
+}
+.navbar{
+    transition: 200ms;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #212020;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 900;
+    color:var(--text-color);
+}
+.navbar li{
+    float: left;
+}
+.navbar a:hover{
+    transition: 200ms;
+    background-color: #464647;
+    color: #f1f1f1;
+}
+.github {
+    float: right;
+    fill: white;
+    margin-top: 0%;
+    
+}
+.github svg{
+    height: 40px;
+    width: 40px;
+    margin-top: 0px;
+}
